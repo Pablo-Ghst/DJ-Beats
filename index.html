@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DJ pad</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+
+    <h1>DJ Pad</h1>
+
+    <section class="teclado">
+        <button data-nota="som_tecla_kick" class= "tecla tecla_kick">kick(c)</button>
+        <button data-nota="som_tecla_clap" class="tecla tecla_clap">Clap(n)</button>
+        <button data-nota="som_tecla_hat" class="tecla tecla_hat">hat(z)</button>
+        <button data-nota="som_tecla_tom" class="tecla tecla_tom">tom(g)</button>
+        <button data-nota="som_tecla_open" class="tecla tecla_open">open(s)</button>
+        <button data-nota="som_tecla_ride" class="tecla tecla_ride">ride(o)</button>
+        <button data-nota="som_tecla_snare" class="tecla tecla_snare">snare(d)</button>
+        <button data-nota="som_tecla_tic" class="tecla tecla_tic">Tic(u)</button>
+        <button data-nota="som_tecla_surdo" class="tecla tecla_surdo">surdo(h)</button>
+    </section>
+
+    <audio  src="sounds/keyq.wav" id="som_tecla_kick"></audio>
+    <audio  src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+    <audio  src="sounds/keye.wav" id="som_tecla_hat"></audio>
+    <audio  src="sounds/keya.wav" id="som_tecla_tom"></audio>
+    <audio  src="sounds/keys.wav" id="som_tecla_open"></audio>
+    <audio  src="sounds/keyd.wav" id="som_tecla_ride"></audio>
+    <audio  src="sounds/keyz.wav" id="som_tecla_snare"></audio>
+    <audio  src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+    <audio  src="sounds/keyc.wav" id="som_tecla_surdo"></audio>
+    <script src= "main.js" > </script>
+</body>
+</html>
